@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace KBK_LABS.Models
 {
-    public class Rows
+    public class Columns
     {
-        List<int> Row { get; set; }
+        public List<int> Row { get; set; }
     }
     public class MatrixModel
     {
-        public List<Rows> Column { get; set; }
+        public List<Columns> Matrix { get; set; }
     }
 }
